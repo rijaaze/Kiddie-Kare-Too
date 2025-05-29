@@ -1,0 +1,55 @@
+.TitlePage {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(rgba(255, 200, 150, 0.9), rgba(255, 235, 200, 0.3)), url('../../assets/TitlePage.png');
+  background-size: contain;
+  background-position: center;
+  color: #333; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.TitlePage-text {
+  max-width: 800px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.85); 
+  padding: 2rem;
+  border-radius: 20px;
+}
+
+.TitlePage-text h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #6b2c1f; 
+}
+
+.TitlePage-text p {
+  max-width: 700px;
+  margin: 10px auto 20px;
+  line-height: 1.6;
+  font-size: 18px;
+  color: #333;
+}
+
+
+.btn {
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  font-size: 18px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #e5533e;
+}
+
+.address {
+  margin-top: 15px;
+  font-size: 16px;
+  color: #333;
+}

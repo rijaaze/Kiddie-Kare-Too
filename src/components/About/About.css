@@ -1,0 +1,41 @@
+.About {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 40px;
+  gap: 50px;
+  flex-wrap: wrap;
+  background-color: #fdf8f1;
+  color: #333;
+}
+
+.About-left {
+  flex: 1;
+  min-width: 300px;
+}
+
+.About-left img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.About-right {
+  flex: 1;
+  min-width: 300px;
+}
+
+.About-right h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #e57d59;
+  font-weight: 700;
+}
+
+.About-right p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
